@@ -10,6 +10,8 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.print("Para qual número você deseja a tabuada? ");
+		int N = sc.nextInt();
 		
 		sc.close();
 	}
